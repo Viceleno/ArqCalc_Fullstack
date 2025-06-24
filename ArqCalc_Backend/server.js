@@ -15,7 +15,7 @@ const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
     database: 'arqcalc',
-    password: 'sua_senha_aqui',
+    password: '2110*Oneleciv',
     port: 5432,
 });
 
