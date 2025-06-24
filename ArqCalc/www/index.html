@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Inteligente - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="color-scheme" content="light dark">
+</head>
+<body>
+    <main class="login-container">
+        <div class="login-card">
+            <h1>Calculadora Inteligente</h1>
+            <p>Faça login para começar</p>
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="username">Usuário</label>
+                    <input type="text" id="username" name="username" required value="admin">
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required value="1234">
+                </div>
+                <button type="submit" class="btn-primary">Entrar</button>
+            </form>
+            <p id="login-error" class="error-message"></p>
+        </div>
+    </main>
+    
+    <script src="js/bd.js"></script>
+    <script src="js/autenticacao.js"></script>
+</body>
+</html>

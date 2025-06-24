@@ -1,0 +1,13 @@
+# Arquivo .gitignore para o projeto completo (Front-end e Back-end)
+
+# Ignorar dependências do Node.js (para o Back-end)
+/ArqCalc_Backend/node_modules
+
+# Ignorar pastas geradas pelo Cordova (para o Front-end)
+/ArqCalc/node_modules
+/ArqCalc/platforms
+/ArqCalc/plugins
+
+# Arquivos de sistema e de editores
+.DS_Store
+.vscode/
