@@ -11,3 +11,6 @@
 # Arquivos de sistema e de editores
 .DS_Store
 .vscode/
+
+# Ignorar arquivos de ambiente do Backend
+ArqCalc_Backend/.env
